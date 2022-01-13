@@ -27,6 +27,7 @@ const galleryItemsMarkup = galleryTpl(galleryItems);
 
 galleryContainerRef.insertAdjacentHTML("beforeend", galleryItemsMarkup);
 
+
 new SimpleLightbox('.gallery a', { 
     captions: true,
     captionSelector: 'img',
